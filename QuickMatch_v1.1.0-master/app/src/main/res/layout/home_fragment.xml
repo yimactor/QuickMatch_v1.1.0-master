@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CC4444">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:text="날씨"
+        android:textSize="50sp"
+        android:gravity="center"/>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/home_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/home_mylocal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나의 지역"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/home_myteam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나의 팀"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/home_myschdule"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="나의 일정"/>
+    </com.google.android.material.tabs.TabLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/home_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

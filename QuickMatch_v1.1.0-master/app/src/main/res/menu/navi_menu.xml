@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Main-Menu">
+        <menu>
+            <item
+                android:id="@+id/btn_home"
+                android:title="Home" />
+            <item
+                android:id="@+id/btn_matching"
+                android:title="Matching" />
+            <item
+                android:id="@+id/btn_team"
+                android:title="Team"/>
+        </menu>
+    </item>
+
+<!--    <item android:title="Communication">-->
+<!--        <menu>-->
+<!--            <item-->
+<!--                android:id="@+id/home1"-->
+<!--                android:title="Home" />-->
+<!--            <item-->
+<!--                android:id="@+id/another1"-->
+<!--                android:title="Another Menu" />-->
+<!--        </menu>-->
+<!--    </item>-->
+</menu>
